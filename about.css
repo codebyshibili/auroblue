@@ -1,0 +1,395 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+/* ..............navbar.................. */
+
+.navbar-container{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  background-color:white;
+  border-bottom: 2px solid whitesmoke;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navlogo-section{
+  width: 15%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blueviolet; */
+}
+.navlogo-section img{
+  width: 70%;
+}
+.navbar-container label {
+  display: none;
+
+}
+#checking{
+  display: none;
+}
+.navbar-container label {
+  display: none;
+}
+
+.nav-items {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-items a{
+  font-size: 18px;
+  font-family: "Poppins", serif;
+  color:black;
+  text-decoration: none;
+}
+.nav-items a:hover{
+  color: rgb(27,77,159);
+}
+
+
+/* ...........banner................. */
+
+.banner{
+  width: 90%;
+  height: 100px;
+  margin-top: 2%;
+  background-color:rgb(241,244,249);
+  display: flex; 
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+.banner h2{
+  font-size: 2rem;
+  font-family: "Play", serif;
+  font-weight: 400;
+  color: grey;
+}
+
+  /* .............about........... */
+
+  .about-container{
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    gap: 20px;
+    /* background-color: aquamarine; */
+    overflow-x: hidden;
+  }
+
+  .about-container span{
+    color: rgb(27,77,159);
+    font-family: "Play", serif;
+    font-weight: 700;
+  }
+  .about-container p{
+    font-size: 1.2rem;
+    font-family: "Poppins", serif;
+  }
+
+
+
+
+
+
+  .mission-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 5%;
+    /* background-color: whitesmoke; */
+    border-radius: 25px;
+    padding-top: 0%;
+    overflow: hidden;
+}
+.mission-card {
+    text-align: center;
+    background-color: #3360a9;
+    padding: 5%;
+    border: 2px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+     border-radius: 25px;
+}
+.mission-card .icon {
+    font-size: 80px;
+    color: white;
+    margin-bottom: 15px;
+}
+.mission-card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 300;
+    font-family: "Play", serif;
+}
+.mission-card p {
+    font-size: 1rem;
+    color:white;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+}
+
+
+
+
+/* .........achivements...... */
+
+
+.achievements-container{
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  /* background-color: chartreuse; */
+}
+.achievement-cont{
+ width: 100%;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+}
+.achievement-cont h2{
+  font-size: 2rem; font-family: "Play", serif;
+  display: inline-block;
+  position: relative;
+}
+.achievement-cont h2::after{
+content: "";
+position: absolute;
+left: 50%;
+bottom: -5px;
+width: 100px;
+height: 3px; /* Adjust thickness */
+background-color: rgb(27,77,159);
+transform: translateX(-50%);
+}
+.achievement-cont p{
+  font-size: 0.9rem;
+  text-align: justify;
+  font-family: "Poppins", serif;
+}
+.achievements-section{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
+  gap: 50px;
+}
+@keyframes morph {
+  0%,
+  100% {
+    border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+  }
+  34% {
+    border-radius: 50% 30% 50% 50% / 30% 30% 70% 70%;
+  }
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+  }
+}
+.achievement{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color:rgb(241,244,249);
+  color:  #3360a9;
+  animation: morph 3.5s linear infinite;
+}
+.achievement h3{ 
+font-family: "Play", serif;
+font-size: 2rem;
+}
+.achievement p{
+font-family: "Poppins", serif;
+font-size: 1.2rem;
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
+/* Navigation Links */
+.footer-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Poppins", serif;
+}
+
+
+
+
+/* Copyright */
+.footer-copyright {
+  font-size: 14px;
+  opacity: 0.7;
+  font-family: "Poppins", serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+  .footer-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+  }
+  
+  .footer-nav {
+    display: none;
+
+  }
+
+
+  .footer-logo {
+      font-size: 28px;
+      display: none;
+  }
+
+  .footer-copyright {
+      font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+  
+@media (max-width:768px){
+
+
+  /* nav */
+  
+  .navlogo-section{
+   width: auto;
+   padding-left: 5%;
+  
+  }
+  .navlogo-section img{
+   width: 150px;
+  }
+  .nav-items {
+   display: block;
+   position: fixed;
+   top: 0;
+   right: -100%;
+   background-color:rgb(241,244,249);
+   width: 50%;
+   height: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   font-family: "Poppins", serif;
+   border-radius: 10px;
+  }
+  
+  .nav-items a {
+   line-height: 10px;
+  }
+  
+  .nav-items label {
+   position: absolute;
+   top: -1%;
+   right: 5%;
+  }
+  .nav-items label img{
+   margin-top: 50%;
+  }
+  .nav-items input {
+   display: block;
+  }
+  
+  #checking:checked~.nav-items {
+   right: 0;
+  }
+  
+  
+  .navbar-container label {
+   display: block;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+  }
+  .navbar-container label img{
+   width: 40px;
+  }
+  .menu{
+    margin-right: 10px;
+   }
+  
+   .banner{
+    height: 50px;
+    margin-top: 5%;
+   }
+  
+  /* mission */
+  .mission-container {
+    flex-direction: column;
+    background-color: white
+  }
+  .mission-card{
+    width: 100%;
+  }
+  .achievements-section{
+    flex-direction: column;
+  }
+  .achievement{
+    width: 80%;
+  }
+  }
