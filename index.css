@@ -72,7 +72,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* background: rgb(14, 12, 12); */
+    background: #3360a9;
     padding: 5%;
     padding-top: 10%;
     padding-bottom: 10%;
@@ -87,30 +87,30 @@ body{
     gap: 10px;
 }
 .banner-content h2{
-    font-size: 3rem;
-    font-family: "Play", serif;
+    font-size: 3rem; 
+    font-family: "Poppins", serif;
+    color: white;
 }
-.banner-content span{
-  color: #3360a9;
-}
+
 .banner-content p{
     font-size: 1rem;
     font-family: "Poppins", serif;
+    color: white;
 }
 .banner-content button{
     width: 150px;
     height: 40px;
     border-radius: 25px;
-    background-color: #3360a9;
+    background-color: white;
     border: none;
-    color: white;
+    color: #3360a9;
     font-family: "Poppins", serif;
 }
 .banner #image{
     width: 500px;
     height: 500px;
     border-radius:50%;
-    border: 10px solid #3360a9;
+    border: 10px solid white;
     padding: 1%;
 }
 .banner-icons{
@@ -156,7 +156,7 @@ justify-content: space-around;
 
   .why-title h2{
     font-size: 1.8rem;
-    font-family: "Play", serif;
+    font-family: "Poppins", serif;
     color:black;
     display: inline-block;
     position: relative;
@@ -200,7 +200,7 @@ justify-content: space-around;
     color: white;
     font-size: 1.2rem;
     font-weight: 500;
-    font-family: "Play", serif;
+    font-family: "Poppins", serif;
     margin-top: 2%;
   }
 .why p{
@@ -240,7 +240,7 @@ justify-content: space-around;
   .about-cont h2{
     font-size: 1.8rem;
     font-weight: bold;
-    font-family: "Play", serif;
+    font-family: "Poppins", serif;
     padding-right: 5%;
   }
   .about-cont span{
@@ -289,7 +289,7 @@ justify-content: space-around;
 .product-title h2{
     font-size: 2rem;
     color: black;
-    font-family: "Play", serif;
+    font-family: "Poppins", serif;
     display: inline-block;
     position: relative;
 }
@@ -421,7 +421,7 @@ justify-content: space-around;
 }
 .banner2-container h2{
     font-size: 3rem;
-    font-family: "Play", serif;
+    font-family: "Poppins", serif;
 }
 .banner2-container p{
     font-size: 1.1rem;
@@ -452,7 +452,7 @@ justify-content: space-around;
    margin-top: 2%;
    margin-bottom: 2%;
    font-size: 2rem;
-   font-family: "Play", serif;
+   font-family: "Poppins", serif;
    color: black;
    display: inline-block;
    position: relative;

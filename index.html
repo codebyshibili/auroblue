@@ -37,8 +37,8 @@
 
    <div class="banner" id="banner">
     <div class="banner-content">
-        <h2 id="heading">Maximizing Output  with  Proven Machinery</h2>
-        <p id="content">We provide cutting-edge pumps, industrial mixers, and machinery designed to optimize fluid movement and blending processes. Our innovative solutions ensure efficiency, reliability, and performance for diverse industrial applications and challenges.</p>
+        <h2 id="heading">Your Trusted Partner in Industrial Solutions</h2>
+        <p>With expertise in pumps, industrial mixers, and specialized machinery, we provide tailored solutions that drive efficiency, improve performance, and ensure lasting reliability for your industrial operations.</p>
         <button id="button" onclick="window.location.href='about.html'">Explore Now</button>
     </div>
     <img id="image" src="images\WhatsApp Image 2025-03-17 at 11.12.26_588c7176.jpg" alt="Banner Image">
@@ -251,21 +251,13 @@
 <script>
 const slides = [
   {
-      heading: "Maximizing Output with Proven Machinery",
-      content: "We provide cutting-edge pumps, industrial mixers, and machinery designed to optimize fluid movement and blending processes. Our innovative solutions ensure efficiency, reliability, and performance for diverse industrial applications and challenges.",
-      buttonText: "Explore Now",
       image: "images/WhatsApp Image 2025-03-17 at 11.12.26_588c7176.jpg"
   },
   {
-      heading: "Your Trusted Partner in Industrial Solutions",
-      content: "With expertise in pumps, industrial mixers, and specialized machinery, we provide tailored solutions that drive efficiency, improve performance, and ensure lasting reliability for your industrial operations.",
-      buttonText: "Learn More",
       image: "images/WhatsApp Image 2025-03-17 at 11.12.26_024621a0.jpg"
   },
   {
-      heading: "Driving Performance with Reliable Machinery",
-      content: "Our high-performance pumps, industrial mixers, and robust machinery are designed to deliver consistent results, enhancing efficiency, productivity, and reliability across a wide range of industrial applications.",
-      buttonText: "Get Started",
+    
       image: "images/WhatsApp Image 2025-03-17 at 11.12.25_3a82fa0a.jpg"
   }
 ];
@@ -273,9 +265,6 @@ const slides = [
 let index = 0;
 function updateSlide() {
   index = (index + 1) % slides.length;
-  document.getElementById("heading").textContent = slides[index].heading;
-  document.getElementById("content").textContent = slides[index].content;
-  document.getElementById("button").textContent = slides[index].buttonText;
   document.getElementById("image").src = slides[index].image;
 }
 setInterval(updateSlide, 5000);    

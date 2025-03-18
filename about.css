@@ -79,7 +79,7 @@ body{
 }
 .banner h2{
   font-size: 2rem;
-  font-family: "Play", serif;
+  font-family: "Poppins", serif;
   font-weight: 400;
   color: grey;
 }
@@ -100,7 +100,7 @@ body{
 
   .about-container span{
     color: rgb(27,77,159);
-    font-family: "Play", serif;
+    font-family: "Poppins", serif;
     font-weight: 700;
   }
   .about-container p{
@@ -144,7 +144,7 @@ body{
     margin-bottom: 10px;
     color: white;
     font-weight: 300;
-    font-family: "Play", serif;
+    font-family: "Poppins", serif;
 }
 .mission-card p {
     font-size: 1rem;
@@ -174,7 +174,7 @@ body{
  flex-direction: column;
 }
 .achievement-cont h2{
-  font-size: 2rem; font-family: "Play", serif;
+  font-family: "Poppins", serif;
   display: inline-block;
   position: relative;
 }
@@ -226,7 +226,7 @@ transform: translateX(-50%);
   animation: morph 3.5s linear infinite;
 }
 .achievement h3{ 
-font-family: "Play", serif;
+  font-family: "Poppins", serif;
 font-size: 2rem;
 }
 .achievement p{

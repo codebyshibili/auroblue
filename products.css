@@ -79,7 +79,7 @@
   }
   .banner h2{
     font-size: 2rem;
-    font-family: "Play", serif;
+    font-family: "Poppins", serif;
     font-weight: 400;
     color: grey;
   }
@@ -123,7 +123,7 @@
 }
 .product-cont h3{
     font-size: 1.4rem;
-    font-family: "Play", serif;
+    font-family: "Poppins", serif;
     font-weight: 300; 
     text-transform: uppercase;
 }

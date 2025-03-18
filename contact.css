@@ -79,7 +79,7 @@ body{
 }
 .banner h2{
   font-size: 2rem;
-  font-family: "Play", serif;
+  font-family: "Poppins", serif;
   font-weight: 400;
   color: grey;
 }
@@ -111,7 +111,7 @@ body{
   .contact-info h2 {
     margin-bottom: 20px;
     font-size: 28px;
-    font-family: "Play", serif;
+    font-family: "Poppins", serif;
   }
   
   .contact-info a{
@@ -133,7 +133,7 @@ body{
   .contact-form h2 {
     margin-bottom: 10px;
     font-size: 28px;
-    font-family: "Play", serif;
+    font-family: "Poppins", serif;
   }
   
   .contact-form p {
