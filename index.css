@@ -81,7 +81,7 @@ body{
 }
 .banner-content {
     /* background-color: blue; */
-    padding: 5%;
+    padding: 8%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -106,12 +106,29 @@ body{
     color: white;
     font-family: "Poppins", serif;
 }
-.banner img{
+.banner #image{
     width: 500px;
     height: 500px;
     border-radius:50%;
     border: 10px solid #3360a9;
     padding: 1%;
+}
+.banner-icons{
+  width: 50px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+justify-content: space-around;
+  border-radius: 35px;
+  position: fixed;
+  top: 65%;
+  right: 1%;
+  z-index: 1;
+  animation: appear  linear;
+  animation-timeline: view();
+  animation-range: entry 3%;
+  background-color: #f1f4f9;
 }
 
 /* ......why..... */
@@ -208,20 +225,8 @@ body{
   .about-container img{
     width: 600px;
     object-fit: cover;
-    animation: morph 3.5s linear infinite;
   }
-  @keyframes morph {
-    0%,
-    100% {
-      border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
-    }
-    34% {
-      border-radius: 50% 30% 50% 50% / 30% 30% 70% 70%;
-    }
-    67% {
-      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
-    }
-  }
+
   .about-cont{
     padding: 3%;
     padding-right: 5%;
@@ -236,6 +241,10 @@ body{
     font-size: 1.8rem;
     font-weight: bold;
     font-family: "Play", serif;
+    padding-right: 5%;
+  }
+  .about-cont span{
+    color: #3360a9;
   }
   .about-cont p{
     font-size: 0.8rerem;
@@ -395,7 +404,7 @@ body{
 
 .banner2-container{
     width: 90%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -404,8 +413,8 @@ body{
     text-align: center;
     gap: 30px;
     color: white;
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("images/DeWatermark.ai_1741408928791.png");
-    background-size: 100% 80vh;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),url("images/Mining_15-750x400.jpg");
+    background-size:100% 100%;
     margin: 5%;
     border-radius: 25px;
     padding: 5%;
@@ -611,19 +620,20 @@ body{
     flex-direction: column-reverse;
     height: auto;
  }
- .banner img{
+ .banner #image{
     width: 95%;
-    height: 300px;
+    height: 350px;
  }
 
  .banner-content h2{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 5%;
   text-align: justify;
  }
 
  .banner-content p{
   text-align: justify;
+  font-size: 0.8rem;
   margin-top: 2%;
   margin-bottom: 1%;
  }
@@ -635,7 +645,7 @@ body{
  }
 
  .about-container img{
-   width: 90%;
+   width: 100%;
  }
  /* why */
  .whypage-container{

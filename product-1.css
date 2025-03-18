@@ -116,7 +116,7 @@ body{
    width: 40%;
    display: flex;
    flex-direction: column;  
-   align-items: center;
+   /* align-items: center; */
    gap: 20px;
 }
 
@@ -132,13 +132,35 @@ body{
 .product-cont p{
     font-family: "Poppins", serif; 
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .product img{
+
     border-radius: 25px;
 }
 
+.product-cont ol {
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   font-size: 0.9rem;
+   gap: 10px;
+   font-family: "Poppins", serif; 
+}
 
+
+.product-cont ul {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 0.9rem;
+    gap: 10px;
+    font-family: "Poppins", serif; 
+ }
+ .product-cont li span{
+    font-weight: 700;
+ }
+ 
 
 /* footer */
 
