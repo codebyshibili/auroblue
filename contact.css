@@ -105,7 +105,7 @@ body{
     flex-direction: column;
     /* justify-content: center; */
     padding: 30px;
-    background-image:  url("images/WhatsApp Image 2025-03-19 at 00.18.26_ba629507.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),   url("images/WhatsApp Image 2025-03-19 at 00.18.25_352259a5.jpg");
     background-size: cover;
   }
   

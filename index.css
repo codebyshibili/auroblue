@@ -521,6 +521,31 @@ justify-content: space-around;
     opacity: 0.7;
     font-family: "Poppins", serif;
   }
+
+
+  @media (max-width: 1024px){
+  .banner{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .about-container{
+    flex-direction: column;
+  }
+  .about-cont{
+    align-items: center;
+  }
+  .about-cont h2{
+    text-align: center;
+
+  }
+  .about-cont p{
+    text-align: center;
+  }
+  .banner2-container{
+    height: 60vh;
+  }
+
+  }
   
   /* Responsive Design */
   @media (max-width: 768px) {
@@ -706,7 +731,4 @@ justify-content: space-around;
  }
  .banner2-container p{
    font-size:0.8rem ;
- }
-
-
-}
+ 
