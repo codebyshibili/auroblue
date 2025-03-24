@@ -127,7 +127,9 @@ body{
   .contact-info a:hover{
     color: white;
   }
-  
+  .loc{
+    margin-bottom: 10%;
+  }
   .contact-form {
     padding: 30px;
     width: 60%;
