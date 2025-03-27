@@ -142,8 +142,7 @@ body{
 .product-cont ol {
    display: flex;
    flex-direction: column;
-   align-self: center;
-   justify-content: center;
+   /* justify-content: center; */
    font-size: 0.9rem;
    gap: 10px;
    font-family: "Poppins", serif; 
@@ -153,8 +152,7 @@ body{
 .product-cont ul {
     display: flex;
     flex-direction: column;
-    align-self: center;
-    justify-content: center;
+    /* justify-content: center; */
     font-size: 0.9rem;
     gap: 10px;
     font-family: "Poppins", serif; 
