@@ -130,8 +130,9 @@
 .product-cont p{
     font-size: 1rem;
     font-family: "Poppins", serif;
-    text-align: justify;
     font-weight: 200;
+    text-align: justify;
+    hyphens: auto;
 }
 .product-cont button{
     width: 50px;
